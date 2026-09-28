@@ -29,7 +29,16 @@ a {
 }
 
 footer {
-    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    max-width: calc(1280px + 2rem);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--color-primary);
+    border-radius: 5px;
 }
 
 .topnav {
