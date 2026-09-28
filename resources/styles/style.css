@@ -21,6 +21,13 @@ body {
     background: var(--color-background);
     padding-left: 1rem;
     padding-right: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+   flex: 1; 
 }
 
 a {
@@ -29,10 +36,8 @@ a {
 }
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 100vw;
     max-width: calc(1280px + 2rem);
     box-sizing: border-box;
